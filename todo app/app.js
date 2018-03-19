@@ -65,10 +65,6 @@ function addToHTML(text, completed, i) {
     list.appendChild(todo);
 }
 
-function toggleTodo(index) {
-
-}
-
 function getTodosFromStorage() {
     var str = localStorage.getItem('todos');
 
